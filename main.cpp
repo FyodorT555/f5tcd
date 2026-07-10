@@ -1,3 +1,9 @@
+// author: FyodorT555
+
+// ================================================================
+
+// libs
+
 #include <algorithm>
 #include <cmath>
 #include <deque>
@@ -10,6 +16,12 @@
 // #include <unordered_set>
 #include <vector>
 
+using namespace std;
+
+// ================================================================
+
+// macros
+
 #define int long long
 #define str string 
 #define el "\n"
@@ -17,7 +29,25 @@
 #define forf(i, a, b) for(int i = a; i < b; i++) 
 #define forb(i, a, b) for(int i = a; i > b; i--) 
 
-using namespace std;
+// ================================================================
+
+// constants
+
+const int MOD = 1e9 + 7;
+
+// ================================================================
+
+// functions
+
+// ================================================================
+
+// structs
+
+// ================================================================
+
+void rd() {}
+void wr() {}
+void lg() {}
 
 // ================================================================
 
