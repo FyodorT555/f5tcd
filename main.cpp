@@ -5,7 +5,7 @@
 // libs
 
 #include <algorithm>
-#include <climits>
+// #include <climits>
 #include <cmath>
 #include <deque>
 #include <iostream>
@@ -25,15 +25,15 @@ using namespace std;
 
 #define int long long
 #define str string 
-#define vi vector<int>
-#define pii pair<int, int>
-#define el "\n"
+#define vec vector
+#define que queue
+#define deq deque
+#define pr pair
 
 #define fr front
 #define bc back
 #define fi first
 #define se second
-#define pp pop
 #define pub push_back
 #define puf push_front
 #define pob pop_back
@@ -41,9 +41,11 @@ using namespace std;
 
 #define forf(i, a, b) for(int i = a; i < b; i++) 
 #define forb(i, a, b) for(int i = a; i > b; i--) 
+// #define form(a) for(int i = 0; i < a; i++) 
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define size(x) (int)x.size()
+#define el "\n"
 
 // ================================================================
 
@@ -108,10 +110,10 @@ signed main()
     cin.tie(0);
     cout.tie(0);
 
-    int t = 1;
+    int n = 1;
     // cin >> t;
 
-    forf(w, 0, t)
+    forf(i, 0, n)
     {
         solve();
     }
